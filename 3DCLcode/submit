@@ -1,0 +1,20 @@
+#!/bin/sh
+#SBATCH -A chm210018
+#SBATCH -J job 
+#SBATCH -N 1
+#SBATCH -n 128
+#SBATCH -t 20:00:00
+#SBATCH -o %x.o.%j
+#SBATCH -e %x.e.%j
+#SBATCH -p wholenode
+
+module load gcc/11.2.0
+module load fftw/3.3.8
+
+
+mpirun -np 128 /home/x-neuman/3DCLcode/a.out
+
+# End of script-file.
+
+
+

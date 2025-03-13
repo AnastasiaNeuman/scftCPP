@@ -1,0 +1,318 @@
+---Reading bcp.input---
+Nx0: 125 Lx0: 5.000000
+Nx1: 125 Lx1: 5.000000
+Nx2: 125 Lx2: 5.000000
+n_exp_nr=0
+Nu=12
+---Reading of bcp.input complete---
+
+---Initialization 1---
+V = 125.000000
+N = 20
+fD = 0.500000
+a^2 = 0.003600
+---Initialization 1 complete---
+
+---Allocating memory---
+Processor 125 allocated 0.492000 MB
+Processor 126 allocated 0.492000 MB
+Processor 127 allocated 0.016000 MB
+Processor 67 allocated 22.000000 MB
+Processor 76 allocated 22.000000 MB
+Processor 77 allocated 22.000000 MB
+Processor 78 allocated 22.000000 MB
+Processor 79 allocated 22.000000 MB
+Processor 80 allocated 22.000000 MB
+Processor 82 allocated 22.000000 MB
+Processor 83 allocated 22.000000 MB
+Processor 84 allocated 22.000000 MB
+Processor 85 allocated 22.000000 MB
+Processor 86 allocated 22.000000 MB
+Processor 87 allocated 22.000000 MB
+Processor 88 allocated 22.000000 MB
+Processor 90 allocated 22.000000 MB
+Processor 91 allocated 22.000000 MB
+Processor 92 allocated 22.000000 MB
+Processor 93 allocated 22.000000 MB
+Processor 94 allocated 22.000000 MB
+Processor 95 allocated 22.000000 MB
+Processor 96 allocated 22.000000 MB
+Processor 97 allocated 22.000000 MB
+Processor 98 allocated 22.000000 MB
+Processor 99 allocated 22.000000 MB
+Processor 100 allocated 22.000000 MB
+Processor 101 allocated 22.000000 MB
+Processor 102 allocated 22.000000 MB
+Processor 103 allocated 22.000000 MB
+Processor 104 allocated 22.000000 MB
+Processor 105 allocated 22.000000 MB
+Processor 106 allocated 22.000000 MB
+Processor 107 allocated 22.000000 MB
+Processor 108 allocated 22.000000 MB
+Processor 109 allocated 22.000000 MB
+Processor 110 allocated 22.000000 MB
+Processor 111 allocated 22.000000 MB
+Processor 112 allocated 22.000000 MB
+Processor 113 allocated 22.000000 MB
+Processor 114 allocated 22.000000 MB
+Processor 115 allocated 22.000000 MB
+Processor 116 allocated 22.000000 MB
+Processor 117 allocated 22.000000 MB
+Processor 118 allocated 22.000000 MB
+Processor 119 allocated 22.000000 MB
+Processor 120 allocated 22.000000 MB
+Processor 121 allocated 22.000000 MB
+Processor 122 allocated 22.000000 MB
+Processor 123 allocated 22.000000 MB
+Processor 124 allocated 22.000000 MB
+Processor 0 allocated 22.000000 MB
+---Memory allocation complete---
+
+Processor 16 allocated 22.000000 MB
+Processor 20 allocated 22.000000 MB
+Processor 38 allocated 22.000000 MB
+Processor 40 allocated 22.000000 MB
+Processor 52 allocated 22.000000 MB
+Processor 60 allocated 22.000000 MB
+Processor 1 allocated 22.000000 MB
+Processor 2 allocated 22.000000 MB
+Processor 3 allocated 22.000000 MB
+Processor 4 allocated 22.000000 MB
+Processor 5 allocated 22.000000 MB
+Processor 6 allocated 22.000000 MB
+Processor 7 allocated 22.000000 MB
+Processor 8 allocated 22.000000 MB
+Processor 9 allocated 22.000000 MB
+Processor 10 allocated 22.000000 MB
+Processor 11 allocated 22.000000 MB
+Processor 12 allocated 22.000000 MB
+Processor 13 allocated 22.000000 MB
+Processor 14 allocated 22.000000 MB
+Processor 15 allocated 22.000000 MB
+Processor 17 allocated 22.000000 MB
+Processor 18 allocated 22.000000 MB
+Processor 19 allocated 22.000000 MB
+Processor 21 allocated 22.000000 MB
+Processor 22 allocated 22.000000 MB
+Processor 23 allocated 22.000000 MB
+Processor 24 allocated 22.000000 MB
+Processor 25 allocated 22.000000 MB
+Processor 26 allocated 22.000000 MB
+Processor 27 allocated 22.000000 MB
+Processor 28 allocated 22.000000 MB
+Processor 29 allocated 22.000000 MB
+Processor 30 allocated 22.000000 MB
+Processor 31 allocated 22.000000 MB
+Processor 32 allocated 22.000000 MB
+Processor 33 allocated 22.000000 MB
+Processor 34 allocated 22.000000 MB
+Processor 35 allocated 22.000000 MB
+Processor 36 allocated 22.000000 MB
+Processor 37 allocated 22.000000 MB
+Processor 39 allocated 22.000000 MB
+Processor 41 allocated 22.000000 MB
+Processor 42 allocated 22.000000 MB
+Processor 43 allocated 22.000000 MB
+Processor 44 allocated 22.000000 MB
+Processor 45 allocated 22.000000 MB
+Processor 46 allocated 22.000000 MB
+Processor 47 allocated 22.000000 MB
+Processor 48 allocated 22.000000 MB
+Processor 49 allocated 22.000000 MB
+Processor 50 allocated 22.000000 MB
+Processor 51 allocated 22.000000 MB
+Processor 53 allocated 22.000000 MB
+Processor 54 allocated 22.000000 MB
+Processor 55 allocated 22.000000 MB
+Processor 56 allocated 22.000000 MB
+Processor 57 allocated 22.000000 MB
+Processor 58 allocated 22.000000 MB
+Processor 59 allocated 22.000000 MB
+Processor 61 allocated 22.000000 MB
+Processor 62 allocated 22.000000 MB
+Processor 63 allocated 22.000000 MB
+Processor 64 allocated 22.000000 MB
+Processor 65 allocated 22.000000 MB
+Processor 66 allocated 22.000000 MB
+Processor 68 allocated 22.000000 MB
+Processor 69 allocated 22.000000 MB
+Processor 70 allocated 22.000000 MB
+Processor 71 allocated 22.000000 MB
+Processor 72 allocated 22.000000 MB
+Processor 73 allocated 22.000000 MB
+Processor 74 allocated 22.000000 MB
+Processor 75 allocated 22.000000 MB
+Processor 81 allocated 22.000000 MB
+Processor 89 allocated 22.000000 MB
+------Starting simulation for L[0]=5.000000, L[1]=5.000000------
+
+---Initialization 1---
+V = 125.000000
+N = 20
+fD = 0.500000
+a^2 = 0.003600
+---Initialization 1 complete---
+
+---Initialization 2---
+Initialized fields
+Total V_segment actual: 0.000000
+Total V_segment theoretical: 125000.000000
+Total V_segment actual db: 0.000000
+Total V_segment theoretical db: 125000.000000
+Total V_segment actual ha: 0.000000
+Total V_segment theoretical ha: 0.000000
+Total V_segment actual hc: 0.000000
+Total V_segment theoretical hc: 0.000000
+V - Vf: 0.000000
+rho0 = 1000.000000
+V_1_exp_np = 0.000000
+V_1_fld_np = 0.000000
+nD = 0.000000
+nAH = 0.000000
+nP = 0.000000
+n_exp_nr = 0
+nFP = 0.000000
+nCH = 0.000000
+Nch = 0.000000
+Setting up Gaussian bonds
+---Initialization 2 complete---
+
+Initial densities calculated!
+Segment counts:
+nD * N = 0.000000 integ(rhoda + rhodb) = 0.000000
+nAH * Nah = 0.000000 integ(rhoha) = 0.000000
+V*rho0: 125000.000000 total segs: 0.000000
+Starting H: 117342.905853
+
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+---Entering main loop---
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+V: 125.000000 Vf: 125.000000
+Iter: 0, H=125477.702195 + i0.414013, err=1.0e+00
+ + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013Segment total: 0.000000  V*rho0: 125000.000000
+ + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013 + i0.414013

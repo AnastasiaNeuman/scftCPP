@@ -1,0 +1,1 @@
+for d in ./*/; do (cd "$d" && for var in *.p0.bin; do (comp=$(basename $var .p0.bin); ../catbin.exe $comp); for x in *.all; do cp "$x" "${x%.all}.res"; done; done); done

@@ -1,0 +1,116 @@
+# Main parameters
+10 10 Na, Nb length of each diblock's block
+0.0 0 phiAH, Nah
+0       C component type (0 for discrete homo, 1 for GSD homo)
+0.0 5 1.0 phiCH, Nch, nCH (N for discrete, n for GSD, phiCH=frac betw. surfs)
+0.06  a, smearing length, 0 for no smearing, -1 for a = Rg/(NA+NB-1)^.5
+50.0  C, total system density (based on diblock N, Rg)
+
+# Interaction parameters
+35.0 chiABN
+0.0  chiACN
+0.0  chiBCN
+50.0     kappaN, strength of compressibility potential
+
+#Init field cond flags (0=zero, -1=rand, -2=cosine, -3=sine, -4=factor of 1)
+-3 1.0 1 1.0  flag 1, prefactor, direction (x=0, y=1, z=2), # periods
+0  2.0 1 1.0  flag 2, prefactor, direction (0, 1, 2), # periods
+1   keep_fields  0=re-initialize fields for each sim, 1=keep prev. w's
+
+# Simulation parameters
+125 125 125  Nx, # grid points in each direction
+5.0 5.0 5.0  L, box dimension in each direction
+0         do_brent flag
+10.0 13.0 0.05 0.01  L_min, L_max, L_step, brent_tol, brent's method stuff
+0.001   lam_pl, step size on the w+ fields
+0.0001  lam_mi, step size on the w- fields
+500000    itermax, max. # of iterations
+1000       print_freq
+50 250 100000 sample_freq, sample_wait, save_avg_freq
+1E-10  error_tol
+1       Update scheme (0 = Euler, 1=1S)
+1        do_CL 
+
+# Ground state dominance parameters
+0.05   gsd_ds
+1E-4  gsd_tol
+1000  gsd_it_max
+
+# Film parameters
+0        do_film flag, creates walls in dim-1 direction
+2.0 0.5  Wall thickness, interfacial width
+0.5 0.5 0.5 Top wall interaction parameters, lambda_A, lambda_B, lambda_C
+0.5 0.5 0.5 Bottom wall interaction parameters, lambda_A, lambda_B, lambda_C
+
+# Nanoparticle parameters
+0       n_exp_nr, number of explicit nanoparticles
+0                do_fld_np, 1 for field-based particles, 0 for no
+1                np_type, 1=sphere, 2=nanorod
+12               Nu, number of points per pi for spherical integration
+0.0            np_frac, vol frac of field-based nps in A, B, NPs section
+0.0 0.0 0.05     L_nr, R_nr, xi_nr for all nps
+0.0 0.0 0.0      Nanorod exp_nr_chi{A,B,C}PN for all nps
+0.0 0.0 0.0     Nanorod center x, y, z for np 1 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 1
+0.5 0.0 0.0     Nanorod center x, y, z for np 2 (relative)
+1 1 1      Nanorod orientation vector x, y, z for np 2
+0.0 0.5 0.0     Nanorod center x, y, z for np 3 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 3
+0 0.0 0.5     Nanorod center x, y, z for np 4 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 4
+0.0 0.5 0.5     Nanorod center x, y, z for np 5 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 5
+0.5 0.0 0.5     Nanorod center x, y, z for np 6 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 6
+0.5 0.5 0.0     Nanorod center x, y, z for np 7 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 7
+0.5 0.5 0.5     Nanorod center x, y, z for np 8 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 8
+0.25 0.25 0.0     Nanorod center x, y, z for np 9 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 9
+0.75 0.75 0.0     Nanorod center x, y, z for np 10 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 10
+0.25 0.75 0.0     Nanorod center x, y, z for np 11 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 11
+0.75 0.25 0.0     Nanorod center x, y, z for np 12 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 12
+0.25 0.0 0.25     Nanorod center x, y, z for np 13 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 13
+0.75 0.0 0.75     Nanorod center x, y, z for np 14 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 14
+0.5 0.25 0.25     Nanorod center x, y, z for np 15 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 15
+0.75 0.0 0.25     Nanorod center x, y, z for np 16 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 16
+0.25 0.0 0.75     Nanorod center x, y, z for np 17 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 17
+0.0 0.25 0.25     Nanorod center x, y, z for np 18 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 18
+0.0 0.75 0.75     Nanorod center x, y, z for np 19 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 19
+0.0 0.25 0.75     Nanorod center x, y, z for np 20 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 20
+0.0 0.75 0.25     Nanorod center x, y, z for np 21 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 21
+0.5 0.75 0.75     Nanorod center x, y, z for np 22 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 22
+0.5 0.25 0.75     Nanorod center x, y, z for np 23 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 23
+0.5 0.75 0.25     Nanorod center x, y, z for np 24 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 24
+0.25 0.5 0.25     Nanorod center x, y, z for np 25 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 25
+0.75 0.5 0.75     Nanorod center x, y, z for np 26 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 26
+0.25 0.5 0.75     Nanorod center x, y, z for np 27 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 27
+0.75 0.5 0.25     Nanorod center x, y, z for np 28 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 28
+0.25 0.25 0.5     Nanorod center x, y, z for np 29 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 29
+0.75 0.75 0.5     Nanorod center x, y, z for np 30 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 30
+0.25 0.75 0.5     Nanorod center x, y, z for np 31 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 31
+0.75 0.25 0.5     Nanorod center x, y, z for np 32 (relative)
+1 1 1     Nanorod orientation vector x, y, z for np 32
